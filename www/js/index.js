@@ -36,6 +36,7 @@ ref.close();
 
 if(localStorage.ipush){}
 else{
+$('.loader1').css('height',window.height);
 $('.loader1').fadeIn();
 }
 		
